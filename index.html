@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap | Frontend Mentor</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <div class="logoHeader">
+            <img src="images/logo.svg" alt="Logo">
+            <ul class="menuLinks">
+                <li class="menuLink dropdownLink">
+                    Features <img class="arrowDown" src="images/icon-arrow-down.svg" alt=""> <img class="arrowUp" src="images/icon-arrow-up.svg" alt="">
+                    <div class="dropdown">
+                        <ul>
+                            <li class="todo">Todo List</li>
+                            <li class="calender">Calender</li>
+                            <li class="reminder">Reminder</li>
+                            <li class="planning">Planning</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuLink dropdownLink">
+                    Company <img class="arrowDown" src="images/icon-arrow-down.svg" alt=""> <img class="arrowUp" src="images/icon-arrow-up.svg" alt="">
+                    <div class="dropdown">
+                        <ul>
+                            <li>History</li>
+                            <li>Our Team</li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuLink">Careers</li>
+                <li class="menuLink">About</li>
+            </ul>
+        </div>
+        <div class="signUpContainer">
+            <button class="btn loginBtn">Login</button>
+            <button class="btn registerBtn">Register</button>
+        </div>
+        <img id="menuIcon" class="hamburgerIcon" src="images/icon-menu.svg" alt="">
+    </nav>
+
+    <main>
+        <div class="content">
+            <h1>Make remote work</h1>
+            <div>
+                <p>Get your team in sync, no matter your location.</p>
+                <p>Streamline processes, create team rituals, and watch productivity soar.</p>
+            </div>
+            <button class="btn learnBtn">Learn More</button>
+            <div class="socialLinks">
+                <img class="socialLink" src="images/client-databiz.svg" alt="">
+                <img class="socialLink" src="images/client-audiophile.svg" alt="">
+                <img class="socialLink" src="images/client-meet.svg" alt="">
+                <img class="socialLink" src="images/client-maker.svg" alt="">
+            </div>
+        </div>
+        <div class="heroImg">
+            <img id="desktopHeroImg" src="images/image-hero-desktop.png" alt="">
+            <img id="mobileHeroImg" src="images/image-hero-mobile.png" alt="">
+        </div>
+    </main>
+
+    <div class="sidebar" id="sidebar">
+        <div class="closeBtn">
+            <img class="closeIcon" id="closeIcon" src="images/icon-close-menu.svg" alt="">
+        </div>
+        <div class="sidebarMenu">
+            <ul>
+                <li class="menuLink dropdownLink">
+                    <div>
+                        Features <img class="arrowDown" src="images/icon-arrow-down.svg" alt=""> <img class="arrowUp" src="images/icon-arrow-up.svg" alt="">
+                    </div>
+                    <div class="dropdown">
+                        <ul>
+                            <li class="todo">Todo List</li>
+                            <li class="calender">Calender</li>
+                            <li class="reminder">Reminder</li>
+                            <li class="planning">Planning</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuLink dropdownLink">
+                    <div>
+                        Company <img class="arrowDown" src="images/icon-arrow-down.svg" alt=""> <img class="arrowUp" src="images/icon-arrow-up.svg" alt="">
+                    </div>
+                    <div class="dropdown">
+                        <ul>
+                            <li>History</li>
+                            <li>Our Team</li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li>Careers</li>
+                <li>About</li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
